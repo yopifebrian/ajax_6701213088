@@ -1,0 +1,54 @@
+{
+  "characters": [
+    {
+      "nama": "Aether",
+      "asal": "Mondstadt",
+      "elemen": "Anemo"
+    },
+    {
+      "nama": "Lumine",
+      "asal": "Mondstadt",
+      "elemen": "Anemo"
+    },
+    {
+      "nama": "Kaeya",
+      "asal": "Mondstadt",
+      "elemen": "Cryo"
+    },
+    {
+      "nama": "Diluc",
+      "asal": "Mondstadt",
+      "elemen": "Pyro"
+    },
+    {
+      "nama": "Jean",
+      "asal": "Mondstadt",
+      "elemen": "Anemo"
+    },
+    {
+      "nama": "Venti",
+      "asal": "Mondstadt",
+      "elemen": "Anemo"
+    },
+    {
+      "nama": "Barbara",
+      "asal": "Mondstadt",
+      "elemen": "Hydro"
+    },
+    {
+      "nama": "Klee",
+      "asal": "Mondstadt",
+      "elemen": "Pyro"
+    },
+    {
+      "nama": "Tartaglia",
+      "asal": "Snezhnaya",
+      "elemen": "Hydro"
+    },
+    {
+      "nama": "Zhongli",
+      "asal": "Liyue",
+      "elemen": "Geo"
+    }
+  ]
+}

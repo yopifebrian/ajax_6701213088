@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menampilkan Data Karakter Genshin Impact</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$.ajax({
+				type: 'GET',
+				url: "C:\Users\lenovo\OneDrive - Telkom University\Documents\Semester 4\PABW\ajax\genshin.json",
+				success: function(data){
+				var characters = data.characters;
+				var tableData = '';
+    $.each(characters, function(i, character){
+        tableData += '<tr>';
+        tableData += '<td>' + character.nama + '</td>';
+        tableData += '<td>' + character.asal + '</td>';
+        tableData += '<td>' + character.elemen + '</td>';
+        tableData += '</tr>';
+    });
+    $('#table-data tbody').html(tableData);
+}
+
+			});
+		});
+	</script>
+</head>
+<body>
+	<table id="table-data">
+		<thead>
+			<tr>
+				<th>Nama</th>
+				<th>Asal</th>
+				<th>Elemen</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- Data akan ditampilkan di sini -->
+		</tbody>
+	</table>
+</body>
+</html>

@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $.ajax({
-    url: 'https://my-json-server.typicode.com/yopifebrian/ajax_6701213088/characters',
+    url: 'https://my-json-server.typicode.com/yopifebrian/ajax_6701213088/db',
     type: 'GET',
     dataType: 'json',
     success: function(data) {

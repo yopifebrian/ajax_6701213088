@@ -1,54 +1,36 @@
 {
-  "characters": [
+  "categories": [
     {
-      "nama": "Aether",
-      "asal": "Mondstadt",
-      "elemen": "Anemo"
+      "id": 1,
+      "title": "Category 1"
     },
     {
-      "nama": "Lumine",
-      "asal": "Mondstadt",
-      "elemen": "Anemo"
+      "id": 2,
+      "title": "Category 2"
     },
     {
-      "nama": "Kaeya",
-      "asal": "Mondstadt",
-      "elemen": "Cryo"
+      "id": 3,
+      "title": "Category 3"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task 1",
+      "completed": false,
+      "categoryId": 1
     },
     {
-      "nama": "Diluc",
-      "asal": "Mondstadt",
-      "elemen": "Pyro"
+      "id": 2,
+      "title": "Task 2",
+      "completed": true,
+      "categoryId": 2
     },
     {
-      "nama": "Jean",
-      "asal": "Mondstadt",
-      "elemen": "Anemo"
-    },
-    {
-      "nama": "Venti",
-      "asal": "Mondstadt",
-      "elemen": "Anemo"
-    },
-    {
-      "nama": "Barbara",
-      "asal": "Mondstadt",
-      "elemen": "Hydro"
-    },
-    {
-      "nama": "Klee",
-      "asal": "Mondstadt",
-      "elemen": "Pyro"
-    },
-    {
-      "nama": "Tartaglia",
-      "asal": "Snezhnaya",
-      "elemen": "Hydro"
-    },
-    {
-      "nama": "Zhongli",
-      "asal": "Liyue",
-      "elemen": "Geo"
+      "id": 3,
+      "title": "Task 3",
+      "completed": false,
+      "categoryId": 1
     }
   ]
 }

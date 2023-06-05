@@ -18,19 +18,22 @@
       "id": 1,
       "title": "Task 1",
       "completed": false,
-      "categoryId": 1
+      "categoryId": 1,
+      "taskDetail": "Task 1 details"
     },
     {
       "id": 2,
       "title": "Task 2",
       "completed": true,
-      "categoryId": 2
+      "categoryId": 2,
+      "taskDetail": "Task 2 details"
     },
     {
       "id": 3,
       "title": "Task 3",
       "completed": false,
-      "categoryId": 1
+      "categoryId": 3,
+      "taskDetail": "Task 3 details"
     }
   ]
 }

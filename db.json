@@ -15,21 +15,32 @@
       "title": "Task 1",
       "completed": false,
       "categoryId": 1,
-      "taskDetail": "Task 1 details"
+      "taskDetail": "Task 1 details",
+      "reminderDate": "2023-06-07T10:00:00Z",
+      "dueDate": "2023-06-10T23:59:59Z",
+      "repeat": "daily",
+      "fileAttachment": "https://example.com/file1.pdf",
+      "isStarred": true
     },
     {
       "id": 2,
       "title": "Task 2",
       "completed": true,
       "categoryId": 2,
-      "taskDetail": "Task 2 details"
+      "taskDetail": "Task 2 details",
+      "dueDate": "2023-06-15T23:59:59Z",
+      "repeat": "weekly",
+      "isStarred": false
     },
     {
       "id": 3,
       "title": "Task 3",
       "completed": false,
       "categoryId": 1,
-      "taskDetail": ""
+      "taskDetail": "Task 3 details",
+      "dueDate": "2023-06-30T23:59:59Z",
+      "fileAttachment": "https://example.com/file3.pdf",
+      "isStarred": true
     }
   ]
 }

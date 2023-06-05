@@ -30,6 +30,7 @@
       "taskDetail": "Task 2 details",
       "dueDate": "2023-06-15T23:59:59Z",
       "repeat": "weekly",
+      "fileAttachment": null,
       "isStarred": false
     },
     {
@@ -39,6 +40,7 @@
       "categoryId": 1,
       "taskDetail": "Task 3 details",
       "dueDate": "2023-06-30T23:59:59Z",
+      "repeat": null,
       "fileAttachment": "https://example.com/file3.pdf",
       "isStarred": true
     }

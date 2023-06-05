@@ -7,10 +7,6 @@
     {
       "id": 2,
       "title": "Category 2"
-    },
-    {
-      "id": 3,
-      "title": "Category 3"
     }
   ],
   "tasks": [
@@ -32,8 +28,8 @@
       "id": 3,
       "title": "Task 3",
       "completed": false,
-      "categoryId": 3,
-      "taskDetail": "Task 3 details"
+      "categoryId": 1,
+      "taskDetail": ""
     }
   ]
 }

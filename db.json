@@ -44,5 +44,11 @@
       "fileAttachment": "https://example.com/file3.pdf",
       "isStarred": true
     }
-  ]
+  ],
+  "profile": {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "phoneNumber": "1234567890",
+    "country": "United States"
+  }
 }

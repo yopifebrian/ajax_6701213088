@@ -28,9 +28,10 @@
       "completed": true,
       "categoryId": 2,
       "taskDetail": "Purchase groceries for the week.",
+      "reminderDate": "2023-06-07T10:00:00Z",
       "dueDate": "2023-06-15T23:59:59Z",
       "repeat": "weekly",
-      "fileAttachment": null,
+      "fileAttachment": "https://example.com/file2.pdf",
       "isStarred": false
     },
     {
@@ -39,8 +40,9 @@
       "completed": false,
       "categoryId": 1,
       "taskDetail": "Gather materials and create a presentation for the meeting.",
+      "reminderDate": "2023-06-07T10:00:00Z",
       "dueDate": "2023-06-30T23:59:59Z",
-      "repeat": null,
+      "repeat": "yearly",
       "fileAttachment": "https://example.com/file3.pdf",
       "isStarred": true
     }
